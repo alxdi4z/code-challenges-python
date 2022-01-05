@@ -1,6 +1,3 @@
-# Implement your function below.
-
-
 def most_frequent(given_list: list):
     max_ocurrences = None
     number = None
@@ -31,7 +28,6 @@ def most_frequent_2(given_list: list):
         return max(count, key=count.get)
 
 
-# NOTE: The following input values will be used for testing your solution.
 # most_frequent(list1) should return 1
 list1 = [1, 3, 1, 3, 2, 1]
 # most_frequent(list2) should return 3
